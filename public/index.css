@@ -1,0 +1,30 @@
+h1 {
+    color: yellow;
+    background-color: blue;
+}
+
+.highlight-text {
+    color: yellow;
+    background-color: blue;
+}
+
+#intro-paragraph {
+    color: white;
+    background-color: gray;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.fg-red {
+    color: red;
+}
+
+.text-2x {
+    font-size: 2em;
+}
+
+body p.xyz {
+    color: gray;
+}
