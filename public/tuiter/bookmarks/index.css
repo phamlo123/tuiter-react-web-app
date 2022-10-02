@@ -138,3 +138,10 @@ body {
 .wd-page {
     width: fit-content;
 }
+
+.wd-top-margin {
+    margin-top: 12px;
+}
+.wd-top-margin-2 {
+    margin-top: 0px;
+}
