@@ -1,0 +1,140 @@
+.wd-outer-border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+body {
+    background-color: black; 
+}
+
+.wd-left-margin {
+    margin-left: 12px;
+}
+
+.wd-title-font-and-color {
+    font-size: 20px;
+    color: white;
+}
+
+.wd-trending-font-and-color {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+.wd-reduced-bottom-margin {
+    margin-bottom: 1px;
+}
+
+.wd-reduced-top-margin {
+    margin-top: 1px;
+}
+
+.wd-thin-bottom-border {
+    margin-top: 11px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-12px-space {
+    margin-bottom: 12px;
+}
+
+.wd-rounded {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-author-name-font {
+    color: white;
+    font-size: 15px;
+}
+.wd-author-handle-font {
+    color:  rgb(110, 118, 125);
+    font-size: 15px;
+}
+
+.wd-left-padding {
+    padding-left: 12px;
+}
+
+.wd-small-left-padding {
+    padding-left: 7px;
+}
+.float-done {
+    clear: both;
+}
+ 
+.wd-float-left-big {
+    float: left;
+    width: 80%;
+}
+
+.wd-set-max-width {
+    width: 506px;
+    margin-right: 12px;
+}
+
+.wd-main-img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;    
+    width: 504px;
+    height: 264px;   
+}
+.wd-small-text {
+    font-size: 12px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-e-section-border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: none;
+    width: 504px;
+}
+.wd-padded-all-sides {
+    padding: 12px;
+}
+.wd-icon-heart {
+    height: 20px;
+    width: 20px;
+    color: red;
+}
+
+.wd-icon-others{
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+
+.wd-float-icons {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.wd-icon-containers {
+    width: 504px;
+}
+
+.wd-number {
+    color: white;
+    font-size: 13px;
+}
+.wd-number-red {
+    color: red;
+    font-size: 13px;
+}
+
+.wd-top-padding {
+    padding-top: 5px;
+}
+
+.wd-page {
+    width: fit-content;
+}
