@@ -7,7 +7,7 @@ function searchBar () {
                 </div>
             </div>
             <div class="col-1">
-                <span class="fa fa-cog fa-2x float-end" style="color: deepskyblue"></span>
+                <div class="fa fa-cog fa-2x padding-left-5" style="color: deepskyblue"></div>
             </div>
         </div>`)}
 

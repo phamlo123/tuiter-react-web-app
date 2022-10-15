@@ -6,7 +6,7 @@ function WhoToFollowListItem (who) {
         <div class="col-1">
             <img class="wd-small-image img-rounded" src=${who.avatarIcon}>
         </div>
-        <div class="col-9">
+        <div class="col-8">
             <div class="fw-bold wd-small-font ms-2">
                 ${who.userName}
                 <span><i class="fa fa-check-circle"></i></span>
@@ -15,8 +15,8 @@ function WhoToFollowListItem (who) {
                 @${who.handle}
             </div>
         </div>
-        <div class="col-1">
-            <button type="submit" class="btn btn-primary btn-sm rounded-pill">Follow</button>
+        <div class="col-2">
+            <button type="submit" class="btn btn-primary ms-3 btn-sm rounded-pill">Follow</button>
         </div>
     </div>
     </li>`)
