@@ -8,7 +8,7 @@ function searchBar () {
                 </div>
             </div>
             <div class="col-1">
-                <div class="fa fa-cog fa-2x padding-left-5" style="color: deepskyblue"></div>
+                <div class="fa fa-cog fa-2x ms-3" style="color: deepskyblue"></div>
             </div>
         </div>`)}
 export default searchBar;
