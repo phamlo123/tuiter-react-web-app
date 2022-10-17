@@ -5,10 +5,13 @@ const NavigationSidebar = () => {
         <a class="list-group-item" href="/">
           <i class="fab fa-twitter"></i></a>
 
+          <a href="#" class="list-group-item list-group-item-action"> <i class="fa fa-home float-start mt-1"></i>
+                            <span class="d-none d-xl-block float-start ps-1"> Home </span></a>
+
           <a href="#" class="list-group-item list-group-item-action active "> <i class="fa fa-hashtag float-start mt-1"></i>
-                            <span class="d-none d-xl-block float-start"> Explore </span></a>
+                            <span class="d-none d-xl-block float-start ps-1"> Explore </span></a>
                             
-          <a href="#" class="list-group-item list-group-item-action "> <i class="fa fa-bell float-start mt-1"></i>
+          <a href="#" class="list-group-item list-group-item-action"> <i class="fa fa-bell float-start mt-1"></i>
               <span class="d-none d-xl-block float-start ps-1"> Notifications </span></a>
 
           <a href="#" class="list-group-item list-group-item-action"> <i class="fa fa-envelope float-start mt-1"></i>

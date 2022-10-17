@@ -1,4 +1,5 @@
 function searchBar () {
+
     return (`<div class="row">
             <div class="col-11">
                 <div class="input-group">
@@ -10,5 +11,4 @@ function searchBar () {
                 <div class="fa fa-cog fa-2x padding-left-5" style="color: deepskyblue"></div>
             </div>
         </div>`)}
-
 export default searchBar;
