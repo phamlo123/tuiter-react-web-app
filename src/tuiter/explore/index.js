@@ -12,7 +12,7 @@ const ExploreComponent = () => {
                        wd-nudge-up"></i>
        </div>
        <div className="col-1">
-         <i className="wd-bottom-4 text-primary float-end bi 
+         <i className=" text-primary float-end bi 
                        bi-gear-fill fs-2 position-relative"></i>
        </div>
      </div>
