@@ -1,6 +1,5 @@
 import React from "react";
 import PostSummaryList from "../post-summary-list";
-import TuitList from "../tuits";
 import "./index.css";
 const ExploreComponent = () => {
  return(
