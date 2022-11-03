@@ -13,8 +13,6 @@ function Assignment6() {
      <Classes/>
      <TodoList/>
    </div>
-
-   
  );
 }
 export default Assignment6;
