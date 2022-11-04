@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeartBroken, faMessage, faShare, faRetweet } from '@fortawesome/free-solid-svg-icons'
+import { faHeart, faMessage, faShare, faRetweet } from '@fortawesome/free-solid-svg-icons'
 
 import React from "react";
 const TuitStat = (
@@ -23,7 +23,7 @@ const TuitStat = (
     return(
      <div className="row">
         <div className="col-3">
-            <FontAwesomeIcon icon={faMessage}/>
+            <i className="bi bi-reply"></i>
             <span> {tuit.replies} </span>
         </div>
 
@@ -31,15 +31,14 @@ const TuitStat = (
             <FontAwesomeIcon icon={faRetweet}/>
             <span> {tuit.retuits} </span>
         </div>
-
+        
         <div className="col-3">
-            
-            <FontAwesomeIcon icon={faHeartBroken} color="red"/>
+            {tuit.liked ? <FontAwesomeIcon icon={faHeart} color="red"/> : <i className="bi bi-heart"></i>}
             <span> {tuit.likes} </span>
         </div>
 
         <div className="col-3">
-            <FontAwesomeIcon icon={faShare}/>
+            <i className="bi bi-share"></i>
         </div>
      </div>
     );

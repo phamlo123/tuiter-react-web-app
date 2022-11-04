@@ -20,7 +20,7 @@
         "time": "2h",
         "title": "Autopilot is an advanced assistance system",
         "image": "tesla.png",
-        "liked": true,
+        "liked": false,
         "replies": 456,
         "retuits": 123,
         "likes": 222,
