@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeart, faMessage, faShare, faRetweet } from '@fortawesome/free-solid-svg-icons'
+import { faHeart, faRetweet } from '@fortawesome/free-solid-svg-icons'
 
 import React from "react";
 const TuitStat = (
