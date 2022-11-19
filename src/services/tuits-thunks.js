@@ -19,7 +19,11 @@ export const createTuitThunk = createAsyncThunk(
         await service.createTuit(tuit)
     } 
 )
-
-export const updateTuitThunk = createAsyncThunk( 
-    'tuits/updateTuit', async (tuit) => await service.updateTuit(tuit)
+export const updateTuitThunk =
+  createAsyncThunk(
+    'tuits/updateTuit',
+    async (tuit) =>
+      await service.updateTuit(tuit)
 )
+
+
