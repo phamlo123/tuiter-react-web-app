@@ -37,7 +37,8 @@ const TuitStat = (
         
         <div className="col-3">
             Likes: {tuit.likes}
-            <i onClick={() => dispatch(updateTuitThunk({
+            <i onClick={() => dispatch(
+            updateTuitThunk({
                     ...tuit,
                 likes: tuit.likes + 1         
             }))} className="bi bi-heart-fill me-2 text-danger"> </i>
