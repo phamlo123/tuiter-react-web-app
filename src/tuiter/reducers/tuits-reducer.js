@@ -1,6 +1,6 @@
 import {createSlice}
   from "@reduxjs/toolkit";
-import tuits from '../tuits/tuits.json';
+// import tuits from '../tuits/tuits.json';
 import {findTuitsThunk, deleteTuitThunk, createTuitThunk, updateTuitThunk}
   from "../../services/tuits-thunks";
 
