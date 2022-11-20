@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import TuitListItem from "./tuit-list-item";
 import {useDispatch, useSelector} from "react-redux";
@@ -9,7 +10,7 @@ const TuitsList = () => {
    const {tuits, loading} = useSelector(
     state => state.tuitsData)
 
-    //eslint-disable-next-lin
+
    useEffect(() => {
      dispatch(findTuitsThunk())
    }, [])
