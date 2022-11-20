@@ -7,7 +7,7 @@ import { useEffect } from "react";
 const TuitsList = () => {
    const {tuits, loading} = useSelector(
     state => state.tuitsData)
-   const dispatch = useDispatch();
+   const dispatch = useDispatch;
    useEffect(() => {
      dispatch(findTuitsThunk())
    }, [])
