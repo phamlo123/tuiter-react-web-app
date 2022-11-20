@@ -4,7 +4,7 @@ import {useDispatch} from "react-redux";
 import {updateTuitThunk} from "../../services/tuits-thunks"
 import React from "react";
 
-const dispatch = useDispatch;
+
 const TuitStat = (
     {
       tuit = {
@@ -23,6 +23,7 @@ const TuitStat = (
      }
    }
    ) => {
+    const dispatch = useDispatch();
     return(
      <div className="row">
         <div className="col-3">
