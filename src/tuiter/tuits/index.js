@@ -8,9 +8,10 @@ const TuitsList = () => {
     const dispatch = useDispatch();
    const {tuits, loading} = useSelector(
     state => state.tuitsData)
-    let obj = findTuitsThunk()
+
+    //eslint-disable-next-lin
    useEffect(() => {
-     dispatch(obj)
+     dispatch(findTuitsThunk())
    }, [])
   
 
