@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeart, faRetweet } from '@fortawesome/free-solid-svg-icons'
+import { faRetweet } from '@fortawesome/free-solid-svg-icons'
 import {useDispatch} from "react-redux";
 import {updateTuitThunk} from "../../services/tuits-thunks"
 import React from "react";
 
-const dispatch = useDispatch();
+const dispatch = useDispatch;
 const TuitStat = (
     {
       tuit = {
@@ -35,13 +35,13 @@ const TuitStat = (
             <span> {tuit.retuits} </span>
         </div>
         
-        {/* <div className="col-3">
+        <div className="col-3">
             Likes: {tuit.likes}
             <i onClick={() => dispatch(updateTuitThunk({
                     ...tuit,
                 likes: tuit.likes + 1         
             }))} className="bi bi-heart-fill me-2 text-danger"> </i>
-        </div> */}
+        </div>
 
         
         <div className="col-3">
