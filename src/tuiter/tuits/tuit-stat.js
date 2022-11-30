@@ -46,11 +46,11 @@ const TuitStat = (
         </div>
 
         <div className="col-3">
+                <span> Dislikes: {tuit.dislikes} </span>
                 <i onClick={() => dispatch(updateTuitThunk({
                     ...tuit,
                 dislikes: tuit.dislikes + 1
                 }))}> <FontAwesomeIcon icon={faThumbsDown}/> </i>
-                <span> {tuit.dislikes} </span>
         </div>
 
         
