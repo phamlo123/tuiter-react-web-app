@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRetweet } from '@fortawesome/free-solid-svg-icons'
+import { faRetweet, faThumbsDown } from '@fortawesome/free-solid-svg-icons'
 import {useDispatch} from "react-redux";
 import {updateTuitThunk} from "../../services/tuits-thunks"
 import React from "react";
@@ -18,6 +18,7 @@ const TuitStat = (
        "replies": 123,
        "retuits": 432,
        "likes": 2345,
+       "dislikes": 0,
        "handle": "@spacex",
        "tuit": "You want to wake up in the morning and think the future is going to be great - and that's what being a spacefaring civilization is all about. It's about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
      }
@@ -26,12 +27,12 @@ const TuitStat = (
     const dispatch = useDispatch();
     return(
      <div className="row">
-        <div className="col-3">
+        <div className="col-2">
             <i className="bi bi-reply"></i>
             <span> {tuit.replies} </span>
         </div>
 
-        <div className="col-3">
+        <div className="col-2">
             <FontAwesomeIcon icon={faRetweet}/>
             <span> {tuit.retuits} </span>
         </div>
@@ -44,8 +45,16 @@ const TuitStat = (
             }))} className="bi bi-heart-fill me-2 text-danger"> </i>
         </div>
 
-        
         <div className="col-3">
+                <i onClick={() => dispatch(updateTuitThunk({
+                    ...tuit,
+                dislikes: tuit.dislikes + 1
+                }))}> <FontAwesomeIcon icon={faThumbsDown}/> </i>
+                <span> {tuit.dislikes} </span>
+        </div>
+
+        
+        <div className="col-2">
             <i className="bi bi-share"></i>
         </div>
 
