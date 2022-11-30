@@ -40,9 +40,10 @@ const TuitListItem = (
         </div>
         <div className="col-11">
             <div>
-                <span className="fw-bolder"> {tuit.userName} </span> 
+                <span className="fw-bolder"> Nasa </span> 
                 <span> <FontAwesomeIcon icon={faCheckCircle} color="blue"/> </span>
-                {tuit.handle} . {tuit.time}
+                {/* {tuit.handle} . {tuit.time} */}
+                @nasa . now
                 <i className="bi bi-x-lg float-end" onClick={() => deleteTuitHandler(tuit._id)}></i>
             </div>
             <div className="mb-3">{tuit.tuit}</div>
