@@ -36,14 +36,13 @@ const TuitListItem = (
   <li className="list-group-item">
    <div className="row">
         <div className="col-1">
-            <img className="rounded-circle" height={48} src={`/images/nasa.png`} alt="sadf"/>
+            <img className="rounded-circle" height={48} src={`/images/${tuit.image}`} alt="description"/>
         </div>
         <div className="col-11">
             <div>
                 <span className="fw-bolder"> Nasa </span> 
                 <span> <FontAwesomeIcon icon={faCheckCircle} color="blue"/> </span>
-                {/* {tuit.handle} . {tuit.time} */}
-                @nasa . now
+                {tuit.handle} . now                
                 <i className="bi bi-x-lg float-end" onClick={() => deleteTuitHandler(tuit._id)}></i>
             </div>
             <div className="mb-3">{tuit.tuit}</div>
